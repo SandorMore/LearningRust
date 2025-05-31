@@ -1,7 +1,12 @@
 fn main(){
     let a = 5;
     let b = 10;
-    let c = 0:
+    let mut c = 0:
+
+    let list = vec![1, 2, 3, 4, 5];
+    for i in list {
+        println!("The value is: {}", i);
+    }
 
     while c < 5{
         println!("c is {}", c);
