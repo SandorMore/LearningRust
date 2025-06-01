@@ -7,7 +7,11 @@ fn main(){
     for i in list {
         println!("The value is: {}", i);
     }
-
+    let string = "Sigma sigma";
+    let mut iter = string.chars();
+    while let Some(ch) = iter.next() {
+        println!("{}", ch);
+    }
     while c < 5{
         println!("c is {}", c);
         c += 1;
