@@ -17,8 +17,17 @@ fn main(){
         c += 1;
     }
     let draw = |x, y| {
-        println!("Drawing {} and {}", x, y);
+        println!("Drawing {} and {}", x, y);    
     };
     draw(a, b);
     println!("{}", a + b);
+
+    let mut d = 0;
+    loop {
+        if d == 5 {
+            break;
+        }
+        println!("d is {}", d);
+        d += 1;
+    }
 }
