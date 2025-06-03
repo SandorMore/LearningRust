@@ -1,4 +1,7 @@
 fn main(){
+    let number = 10;
+    num >> = 2; // This is a right shift operation, not a bitwise AND
+    println!("The number is: {}", number);
     let a = 5;
     let b = 10;
     let mut c = 0:
